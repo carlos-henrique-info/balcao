@@ -75,7 +75,7 @@ test.describe("Cadastro de produto na área administrativa", () => {
     await page
       .getByLabel("Descrição")
       .fill("Luminária de jardim com carregamento solar.");
-    await page.getByLabel("Categoria").locator("input").click();
+    await page.locator('input[data-path="category"]').click();
     await page.getByRole("option", { name: "Furniture" }).click();
     await page.getByLabel("Preço (US$)").fill("59.9");
     await page.getByLabel("Estoque").fill("10");
