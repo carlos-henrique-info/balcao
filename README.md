@@ -1,6 +1,6 @@
 # Balcão — catálogo de produtos
 
-https://https://carlos-henrique-info.github.io/balcao
+https://carlos-henrique-info.github.io/balcao
 
 Projeto final de React + TypeScript. O **tema escolhido é `/products`** da [DummyJSON](https://dummyjson.com): um catálogo com busca, filtro por categoria, ordenação, paginação, tela de detalhes, carrinho de compras e uma área administrativa protegida por login JWT.
 
