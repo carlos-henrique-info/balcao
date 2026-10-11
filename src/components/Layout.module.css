@@ -1,0 +1,73 @@
+.header {
+  background: var(--balcao-ink);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-block: 0.75rem;
+}
+
+.brand {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand span {
+  color: var(--balcao-tag);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #c9d1e3;
+  text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--balcao-tag);
+  outline-offset: 2px;
+}
+
+.active {
+  color: #fff;
+  border-bottom-color: var(--balcao-tag);
+}
+
+.main {
+  flex: 1;
+  padding-block: 2rem;
+}
+
+.footer {
+  padding-block: 1.5rem;
+  color: #5b6478;
+  font-size: 0.875rem;
+}

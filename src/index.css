@@ -1,0 +1,24 @@
+:root {
+  --balcao-ink: #172033;
+  --balcao-paper: #f4f6f8;
+  --balcao-tag: #ffc93c;
+}
+
+body {
+  background: var(--balcao-paper);
+  color: var(--balcao-ink);
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
